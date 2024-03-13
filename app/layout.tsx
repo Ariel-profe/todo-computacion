@@ -20,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/logo_separado-02.svg" sizes="any" />
       <body className={inter.className}>
         <Header />
         <main className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">

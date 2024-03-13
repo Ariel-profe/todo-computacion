@@ -9,7 +9,7 @@ export const Values = () => {
   return (
     <Section className="overflow-hidden" id="values">
         <div className="container relative z-2">
-            <Heading className={""} title={<Fragment>Somos <br /> <span className="bg-gradient-to-r from-primary-bluelight to-primary-green inline-block text-transparent bg-clip-text font-bold">TODO COMPUTACIÓN</span> <br /> Mendoza</Fragment>} tag="Valores y cimientos" />
+            <Heading className={""} title={<Fragment>Somos <br /> <span className="bg-gradient-to-r from-primary-bluelight to-primary-green inline-block text-transparent bg-clip-text font-bold">TODO COMPUTACIÓN</span> <br /> Mendoza</Fragment>} tag="Te contamos de nosotros" />
 
             <div className="relative">
                 <ValuesList />

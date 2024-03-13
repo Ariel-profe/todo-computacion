@@ -40,10 +40,6 @@ export const Hero = () => {
                 </span>
                 </h1>
                 <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">Somos empresa líder de Mendoza en venta y stock de productos. Tenemos los mejores servicios para que disfrutes al máximo la tecnología actual y del futuro.</p>
-
-                <Button href="/nosotros" white>
-                   Conocenos
-                </Button>
             </div>
 
             <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -81,18 +77,7 @@ export const Hero = () => {
                             </ScrollParallax>
                         </div>
                     </div>
-
                     <Gradient />
-                </div>
-
-                <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-                    <img
-                    src={heroBackground.src}
-                    className="w-full"
-                    width={1440}
-                    height={1800}
-                    alt="hero"
-                    />
                 </div>
                 <BackgroundCircles parallaxRef={parallaxRef} />
             </div>

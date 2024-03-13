@@ -188,58 +188,42 @@ import { PiHeadphones } from "react-icons/pi";
     {
       id: "0",
       title: "Notebooks",
-      icon: notebook,
-      width: 26,
-      height: 36,
+      icon: notebook
     },
     {
       id: "1",
       title: "Conectividad",
-      icon: cable,
-      width: 34,
-      height: 36,
+      icon: cable
     },
     {
       id: "2",
       title: "Auriculares",
-      icon: headphone,
-      width: 36,
-      height: 28,
+      icon: headphone
     },
     {
       id: "3",
       title: "Teclados",
-      icon: keyboard,
-      width: 34,
-      height: 35,
+      icon: keyboard
     },
     {
       id: "4",
       title: "Memorias",
-      icon: memory,
-      width: 34,
-      height: 34,
+      icon: memory
     },
     {
       id: "5",
       title: "Mouses",
-      icon: mouse,
-      width: 34,
-      height: 34,
+      icon: mouse
     },
     {
       id: "6",
       title: "Pantallas",
-      icon: screen,
-      width: 26,
-      height: 34,
+      icon: screen
     },
     {
       id: "7",
       title: "Mochilas",
-      icon: backpack,
-      width: 38,
-      height: 32,
+      icon: backpack
     },
   ];
   

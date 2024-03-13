@@ -1,6 +1,6 @@
 import { productsToSell, collabContent, collabText } from "@/utils/constants"
 import { Section } from "../ui/Section"
-import { check, iconLogo } from "@/app/assets"
+import { check, whiteISO, whiteLogo } from "@/app/assets"
 import { Button } from "../ui/Button"
 import { LeftCurve, RightCurve } from "../design/Collaboration"
 
@@ -37,10 +37,10 @@ export const Collaboration = () => {
 
             <div className="lg:ml-auto xl:w-[38rem] mt-20">
                 <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
-                    <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
+                    <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full animate-pulse">
                         <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                             <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                                <img src={iconLogo.src} alt="tc-logo" width={48}height={48} />
+                                <img src={whiteISO.src} alt="tc-logo" width={48}height={48} />
                             </div>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ export const Collaboration = () => {
                                         src={item.icon.src}
                                         alt={item.title}
                                         className="m-auto"
-                                        width={item.width}
-                                        height={item.height}
+                                        width={40}
+                                        height={40}
                                     />
                                     <div className="absolute top-0 left-14 opacity-0 transition-opacity md:group-hover:opacity-80">
                                         {item.title}

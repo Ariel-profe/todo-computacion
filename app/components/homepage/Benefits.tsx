@@ -9,6 +9,7 @@ import { Heading } from "../ui/Heading";
 import { Section } from "../ui/Section";
 import { Fragment } from "react";
 import { useRouter } from "next/navigation";
+import { Button } from "../ui/Button";
 
 
 export const Benefits = () => {
@@ -47,7 +48,7 @@ export const Benefits = () => {
                     onClick={() => push('/servicios')}
                   >
                     <IoIosArrowForward size={20} />
-                  </button>                    
+                  </button>                
                 </div>
               </div>
 
@@ -73,6 +74,12 @@ export const Benefits = () => {
               <ClipPath />
             </div>
           ))}
+        </div>
+
+        <div className="w-full text-center">
+          <Button href="/nosotros" white>
+            Conocenos
+          </Button>    
         </div>
       </div>
     </Section>
